@@ -1,4 +1,4 @@
-.pytest_cache/
+*.pytest_cache/
 .idea/
 __pycache__/
-# data/config.yml
+# data/login_negative.yml

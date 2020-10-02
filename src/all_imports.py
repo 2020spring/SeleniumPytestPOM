@@ -2,6 +2,7 @@
 import logging
 import time
 import datetime
+import pytest
 
 import yaml
 from os.path import dirname, abspath
@@ -18,6 +19,11 @@ from selenium.common.exceptions import WebDriverException, NoSuchElementExceptio
 
 
 # page imports
+from src.pages.base_page import *
+from src.pages.login_page import *
+
+# steps imports
+# from src.steps.login_steps import *
 
 
 # other
